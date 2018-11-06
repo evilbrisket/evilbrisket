@@ -1,0 +1,36 @@
+{
+  "name": "evilbrisket",
+  "author": {
+    "name": "Evil Brisket, LLC",
+    "email": "support@evilbrisket.com"
+  },
+  "homepage": "https://www.evilbrisket.com",
+  "license" : "Beerware",
+  "bundleDependencies": false,
+  "dependencies": {
+    "bindings": "*",
+    "nan": "*"
+  },
+  "deprecated": false,
+  "description": "Evil Brisket temperature board for Raspberry Pi.",
+  "engines": {
+    "node": ">=8.8"
+  },
+  "gypfile": true,
+  "keywords": [
+    "evilbrisket",
+    "evil brisket",
+    "bbq",
+	"barbeque",
+    "temperature",
+    "raspberrypi",
+    "raspberry pi",
+	"beergaritas"
+  ],
+  "main": "./lib/evilbrisket.js",
+  "scripts": {
+    "install": "node-gyp rebuild",
+    "test": "true"
+  },
+  "version": "1.0.0"
+}
