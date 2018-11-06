@@ -6,6 +6,7 @@
   },
   "homepage": "https://www.evilbrisket.com",
   "license" : "Beerware",
+   "repository": "evilbrisket/evilbrisket",
   "bundleDependencies": false,
   "dependencies": {
     "bindings": "*",
