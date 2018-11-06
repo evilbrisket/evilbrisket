@@ -1,4 +1,4 @@
-# Evilbrisket drive for Node.js
+# Evilbrisket driver for Node.js
 
 Node.js driver for Evil Brisket hardware. See http://www.evilbrisket.com for more information.
 
