@@ -3,8 +3,8 @@ Copyright (c) 2017,  Evil Brisket, LLC
 All rights reserved.
 */
 
-var evilbrisket = require('../lib/evilbrisket');
-
+var Evilbrisket = require('../lib/evilbrisket');
+var evilbrisket = new Evilbrisket();
 evilbrisket.init()
 
 evilbrisket.led(evilbrisket.LED.RED, true);
@@ -22,8 +22,7 @@ var probes = [
 	evilbrisket.PROBE.THERMISTOR_5,
 	evilbrisket.PROBE.THERMISTOR_6,
 	evilbrisket.PROBE.THERMOCOUPLE_1, 
-	evilbrisket.PROBE.THERMOCOUPLE_2, 
-	evilbrisket.PROBE.DIODE];
+	evilbrisket.PROBE.THERMOCOUPLE_2];
 
 
 probes.forEach(function(probe, index) {
